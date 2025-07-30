@@ -1,41 +1,38 @@
-# 📘 Blockchain JavaScript & Solidity Learning Journal
+# 🧪 Hardhat Journey: Smart Contracts on Local Ethereum Network
 
-Tracking my journey to become a full-stack blockchain developer.
-
-## 🚀 Progress Overview
-
-| Day | Topics Covered |
-|-----|----------------|
-| Day 1 | JavaScript: Variables, arrays, template strings |
-| Day 2 | Functions, if/else, loops |
-| Day 3 | Objects, `map`, `filter`, `reduce`, token logic |
-| Day 4 | Promises, `async/await`, `try/catch`, contract simulation |
-| Solidity Day 1 | ✅ Hardhat setup, Solidity contract, local deployment, state reading/writing |
+A collection of Solidity smart contracts deployed and tested using Hardhat. This repo marks my transition from theory to actual smart contract interaction on a development blockchain.
+(this repo is in progress)
 
 ---
 
-## 🧠 Key Skills Learned
+## 🔧 What's Inside
 
-- ✅ Token simulation in JavaScript (`mint`, `transfer`, `burn`)
-- ✅ Mastered Promises and `async/await` for blockchain-style calls
-- ✅ Set up Git + GitHub for version control
-- ✅ Installed and used Hardhat for modern smart contract dev
-- ✅ Wrote, compiled, and deployed a real Solidity contract (`HelloWorld`)
-- ✅ Interacted with contract using `ethers.js` in Hardhat console
-
----
-
-## 🧩 Next Up (Solidity Day 2)
-
-- Ownership and `msg.sender`
-- `require()` and access control
-- `constructor(args)`
-- Custom error handling
-- Writing a basic `MyToken` contract
+- ✅ Contract: `HelloWorld`
+- ✅ Contract: `MyToken` (basic ERC-20 style logic)
+- ✅ Scripts for deploying and interacting
+- ✅ Local Hardhat node setup
+- ✅ Clean folder structure
 
 ---
 
-## 🔗 Repo Link
+## 📁 Structure
 
-This journal is hosted on [GitHub](https://github.com/Talha-Eth/blockchain-js-learning)
 
+
+---
+
+## 📘 Learnings
+
+- Deploying contracts with Hardhat scripts
+- Writing and calling contract functions via ethers.js
+- Fixing common errors in local environments
+- Understanding artifacts and ABI interaction
+
+---
+
+## 🌱 Ongoing
+
+This repo will continue to grow with:
+- More advanced contracts (multi-owner, modifiers, structs)
+- Unit testing with Chai
+- Frontend integration (upcoming)
